@@ -1,18 +1,19 @@
     h1 {
-      background-color:#87ADEA;
-    color:#FFFFFF;
+      background-color: #96D6FF;
+      color: #FFFFFF;
     }
+    
     a {
-      color:#FFFFFF ;
+      color: #FFFFFF;
     }
     
     body {
-      background-color: #23A4F4E6
+      background-color: #26ACFFE6
     }
     
     /* mengubah div menjadi tampilan kartu*/
     div {
-      background-color: #AEDBFF;
+      background-color: #96C9FFCC;
       width: 280px;
       margin: 20px auto;
       padding: 20px;
@@ -24,4 +25,20 @@
     div img {
       border-radius: 50%;
       border: 5px solid #E6F2FF;
+    }
+    
+    .navigasi {
+      background-color: #7EC9FF;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    
+    .navigasi a {
+      text-decoration: none;
+      color: #000000;
+    }
+    
+    .navigasi .aktif {
+      font-weight: bold;
     }
